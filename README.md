@@ -65,5 +65,5 @@ user:~/Country-Info-App/country-info-frontend/src/$ npm run dev
 The frontend should start on localhost:3000
 
 ## Demo
-![Country-Info-AppGif](--)
+![Country-Info-AppGif](https://raw.githubusercontent.com/Sersasj/Country-Info-App/refs/heads/main/Recording.gif)
 
