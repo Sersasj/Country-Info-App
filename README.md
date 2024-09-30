@@ -1,69 +1,80 @@
-# Country info App
+# Country Info App
 
+## Tech Stack
+- **Backend**: Nest.js
+- **Frontend**: Next.js, Tailwind CSS, Recharts (for charting)
 
-## Back-end
-### Tech Stack:
-* Node (Nest.js)
+## Features
+- Browse a list of countries
+- View detailed information for each country, including population, neighboring countries, and flag details
+- Interactive charts for population insights
+
+---
+
+## Backend
 
 ### Endpoints
-* Base URL: localhost:3001/api/
+All API endpoints are hosted at the base URL: `http://localhost:3001/api/`.
 
-## See swagger for more informations about the endpoints
+Refer to Swagger documentation for more details on available endpoints.
 
+### How to Run the Backend
 
-# How to run
-### Backend
-#### 1. Access the `src` directory of the backend:
-```console
-user:~/Country-Info-App$ cd Country-Info-App/country-info-backend/src/
-```
+1. **Navigate to the project directory:**
+   ```bash
+   cd Country-Info-App/country-info-backend/src/
+   ```
 
-#### 2. Install all dependencies:
-```console
-user:~/Country-Info-App/country-info-backend/src$ npm install
-```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-#### 3. Run the server:
-```console
-user:~/Country-Info-App/country-info-backend/src$ npm run start:dev
-```
+3. **Start the server in development mode:**
+   ```bash
+   npm run start:dev
+   ```
 
-The server should start on localhost:3001
+   The server will be available at `http://localhost:3001`.
 
+---
 
-## Front-end
-### Tech Stack:
-* Next.js
+## Frontend
 
 ### Pages
-1. Country List Page (localhost:3000)
-2. Country Info Page (localhost:3000/country/iso2)
+- **Country List Page**: `http://localhost:3000`
+- **Country Info Page**: `http://localhost:3000/country/[iso2]`  
+  (Replace `[iso2]` with a country’s ISO2 code)
 
+### How to Run the Frontend
 
-### Styling
-* Tailwind
-* [Recharts](https://recharts.org/en-US/) for chart
+1. **Navigate to the project directory:**
+   ```bash
+   cd Country-Info-App/country-info-frontend/src/
+   ```
 
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-### Frontend
+3. **Start the frontend in development mode:**
+   ```bash
+   npm run dev
+   ```
 
-#### 1. Access the `src` directory of the frontend:
-```console
-user:~/$ cd Country-Info-App/country-info-frontend/src/
-```
+   The app will be available at `http://localhost:3000`.
 
-#### 2. Install all dependencies:
-```console
-user:~/Country-Info-App/country-info-frontend/src/$ npm install
-```
+---
 
-### 3. Run the frontend:
-```console
-user:~/Country-Info-App/country-info-frontend/src/$ npm run dev
-```
+## Styling & Charts
+- **Styling**: Tailwind CSS
+- **Charts**: Recharts for visualizing country data
 
-The frontend should start on localhost:3000
+---
 
 ## Demo
-![Country-Info-AppGif](https://raw.githubusercontent.com/Sersasj/Country-Info-App/refs/heads/main/Recording.gif)
 
+Below is a brief demonstration of the Country Info App in action:
+
+![Country-Info-App Demo](https://raw.githubusercontent.com/Sersasj/Country-Info-App/refs/heads/main/Recording.gif)
